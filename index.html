@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Cooking Club</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <div class="menu">
+            <a href="">
+                <img class="logo" src="assets/cooking_club_logo.png" alt="Cooking Club Logo">
+            </a>
+            <a class="curPage" href="">HOME</a>
+            <a href="recipes.html">RECIPES</a>
+            <a href="contact.html">CONTACT</a>
+        </div>
+    </div>
+
+    <!-- Body -->
+    <div class="title">
+        <p>Welcome</p>
+    </div>
+
+    <!-- text container -->
+    <div class="text-block">
+        <p>Since 1992, the Cooking Club has sought to provide a community for those who view food as an art. All are welcome, regardless of skill or cuisine.
+            In recent years, the club has grown to over a hundred newsletter subscribers and more than 50 regulars at our weekly events.
+            This website contains some of the Cooking Club's essential content, including contact information and even some of our original recipes. Enjoy!
+        </p>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="icons">
+            <a href="https://www.facebook.com/">
+                <img src="assets/facebook-logo.jpg" alt="facebook icon">
+            </a>
+            <a href="https://www.instagram.com/accounts/login/">
+                <img src="assets/instagram-logo.jpg" alt="instagram icon">
+            </a>
+            <a href="https://twitter.com">
+                <img src="assets/twitter-logo.jpg" alt="x/twitter icon">
+            </a>
+            
+            <!-- dark mode toggle -->
+            <div>
+                <span class="dm-title">Dark Mode</span>
+                <label class="switch">
+                    <input type="checkbox" id="toggleSlider" onclick="toggleSlider()">
+                    <span class="slider"></span>
+                </label>
+            </div>
+        </div>
+        
+    </div>
+
+    <!-- dark overlay over background -->
+    <div class="dark-overlay"></div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>

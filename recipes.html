@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Cooking Club</title>
+    <link rel="stylesheet" type="text/css" href="recipes.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <div class="menu">
+            <a href="index.html">
+                <img class="logo" src="assets/cooking_club_logo.png" alt="Cooking Club Logo">
+            </a>
+            <a href="index.html">HOME</a>
+            <a class="curPage" href="">RECIPES</a>
+            <a href="contact.html">CONTACT</a>
+        </div>
+    </div>
+
+    <!-- Body -->
+    <div class="container">
+        
+        <!-- text/image containers -->
+        <div class="sub-container-1">
+            <div class="sub-images">
+                <img src="assets/chocolate-milk-recipe-2355494-hero-01-d44b4548f5904a758ed12d5caa0466fd.jpg" alt="">
+            </div>
+            <div class="sub-texts">
+                <span class="container-title">Chocolate Milk:</span> Cold milk, Chocolate syrup
+                <br>Directions: Pour cold milk into a glass and add chocolate syrup to the milk. Stir well until the chocolate syrup is fully dissolved. Enjoy your delicious chocolate milk!
+            </div>
+        </div>
+
+        <div class="sub-container-2">
+            <div class="sub-images">
+                <img src="assets/Greek-Scrambled-Eggs-main-6.jpg.webp" alt="">
+            </div>
+            <div class="sub-texts">
+                <span class="container-title">Scrambled Eggs:</span> Eggs, Butter, Salt, Pepper
+                <br>Directions: Beat eggs. Melt butter in a pan. Pour eggs into the pan. Stir until cooked. Season with salt and pepper. Serve and enjoy!
+            </div>
+        </div>
+
+        <div class="sub-container-3">
+            <div class="sub-images">
+                <img src="assets/crispy-bacon-feature.jpg" alt="">
+            </div>
+            <div class="sub-texts">
+                <span class="container-title">Turkey Bacon:</span> Turkey bacon slices
+                <br>Directions: Preheat a non-stick pan over medium heat. Place turkey bacon slices in the pan. Cook until crispy on both sides. Remove from the pan and drain excess grease on paper towels. Serve and enjoy your turkey bacon!
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="icons">
+            <a href="https://www.facebook.com/">
+                <img src="assets/facebook-logo.jpg" alt="facebook icon">
+            </a>
+            <a href="https://www.instagram.com/accounts/login/">
+                <img src="assets/instagram-logo.jpg" alt="instagram icon">
+            </a>
+            <a href="https://twitter.com">
+                <img src="assets/twitter-logo.jpg" alt="x/twitter icon">
+            </a>
+
+            <!-- dark mode toggle -->
+            <div>
+                <span class="dm-title">Dark Mode</span>
+                <label class="switch">
+                    <input type="checkbox" id="toggleSlider" onclick="toggleSlider()">
+                    <span class="slider"></span>
+                </label>
+            </div>
+        </div>
+    </div>
+
+    <!-- dark overlay over background -->
+    <div class="dark-overlay"></div>
+
+    <script src="recipes.js"></script>
+</body>
+</html>
